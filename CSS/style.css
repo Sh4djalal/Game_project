@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #3333;
+    scroll-behavior: smooth;
+}
+html{
+    /* font-size: 62.5%;*/
+    
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./puzzle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    
+    /* background-size: 1700px; */
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: gray;
+    position: fixed;
+    border-radius: 100px;
+    z-index: 1;
+}
+nav img{
+    width: 150px;
+    display: inline-block;
+    margin-left: 6%;
+    border-radius: 100px;
+}
+nav ul{
+    display: flex;
+    margin-left: 50vw;
+    flex-direction: row;
+    margin-top: 3vw;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+nav ul a{
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#Home{
+    color: aliceblue;
+    transform: translateY(-15px);
+}
+
+
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80vh;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    margin-left: 15vw;
+}
+
+.info .news{
+    border-radius: 20px;
+    width: 82%;
+    height: 500px;
+    background-color: rgb(1, 1, 69);
+    position: relative;
+}
+.info .news img{
+    margin: 50px;
+    width: 600px;
+    
+}
+.info .news .RH1{
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 50vw;
+}
+.info .news .AH1{
+    color: aliceblue;
+    position: absolute;
+    top: 90px;
+    left: 45vw;
+}
+.info .news p{
+    width: 400px;
+    color: aliceblue;
+    position: absolute;
+    top: 150px;
+    left: 50vw;
+}
+.info .news button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    /* color: aliceblue; */
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}
+.info .news button:active{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    /* color: aliceblue; */
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translateY(5px);
+}
+
+
+
+
+.info .news2{
+    border-radius: 20px;
+    width: 82%;
+    height: 500px;
+    background-color: rgb(1, 1, 69);
+    margin-top: 80px;
+    position: relative;
+}
+.info .news2 img{
+    margin: 50px;
+    width: 550px;
+}
+.info .news2 .RH1{
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 50vw;
+}
+.info .news2 .AH1{
+    color: aliceblue;
+    position: absolute;
+    top: 90px;
+    left: 45vw;
+}
+.info .news2 p{
+    width: 400px;
+    color: aliceblue;
+    position: absolute;
+    top: 150px;
+    left: 50vw;
+}
+.info .news2 button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    /* color: aliceblue; */
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}
+.info .news2 button:active{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    /* color: aliceblue; */
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translateY(5px);
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 100vh;
+    background-color: black;
+}
+footer img{
+    width: 150px;
+    display: inline-block;
+    margin-left: 6%;
+    border-radius: 100px;
+    margin-top: 22px;
+}
+footer ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 80vw;
+    width: 250px;
+    height: 200px;
+    position:absolute;
+
+}
+footer ul a{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 130px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+/* .guessNum{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#Btn{
+    
+    width: 70px;
+}
+
+#inputN{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+} */
